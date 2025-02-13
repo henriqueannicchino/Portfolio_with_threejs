@@ -17,6 +17,7 @@ export default [
         sourceType: 'module',
       },
     },
+    ignorePattens: ['dist', '.eslintrc.cjs', 'src'],
     settings: { react: { version: '18.3' } },
     plugins: {
       react,
